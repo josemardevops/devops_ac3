@@ -16,9 +16,9 @@ def localiza_primos():
             if number % j == 0:
                 qtd_divisores += 1
         if qtd_divisores == 2:
-            primos = primos + str(number) + ", "
+            primos = primos + str(number) + ","
             s += 1
-    number += 1
+        number += 1
 
     return primos
 
